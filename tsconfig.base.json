@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/route-reuse-toolset": ["libs/route-reuse-toolset/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
